@@ -1,6 +1,6 @@
    var textColor = "#FFFFFF";  // I would use 'const', not 'var', but it breaks in IE
    var borderColor = "#FFFFFF"; 
-   var barColor = "#6BE28B";
+   var barColor = "#FF80AB";
    var finishedBarColor = "#FFFFFF";
    var movingBarColor = "#FFFFFF";
    var movingBarOutlineColor = "#FFFFFF";
