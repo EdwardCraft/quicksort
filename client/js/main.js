@@ -1,6 +1,6 @@
    var textColor = "#FFFFFF";  // I would use 'const', not 'var', but it breaks in IE
-   var borderColor = "#FFFFFF"; 
-   var barColor = "#FF80AB";
+   var borderColor = "#4A4343"; 
+   var barColor = "#F06292";
    var finishedBarColor = "#FFFFFF";
    var movingBarColor = "#FFFFFF";
    var movingBarOutlineColor = "#FFFFFF";
@@ -8,7 +8,7 @@
    var multiBoxColor = "#F54CBC";
    var maxColor = "#F00";
    
-   var barGap = 10;
+   var barGap = 20;
    
    var IDLE = 0;     // possible values for the "state" variable.
    var STARTING = 1;

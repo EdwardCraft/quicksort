@@ -72,7 +72,6 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand {
   color: white;
-
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -92,7 +91,7 @@ aside {
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 18px;
   color: #222222;
 }
 .navbar-default .nav > li > a:hover,
@@ -150,8 +149,8 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #F05F40;
-    /*color: #3F5185;*/
+    /*color: #F05F40;*/
+    color: #FF80AB;
   }
 }
 header {
@@ -423,4 +422,19 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+canvas {
+
+  background: rgba(74, 67, 67, 0.7);
+  /*background: rgba(37, 35, 35, 0.9);*/
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
 

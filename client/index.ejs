@@ -50,13 +50,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">¿Qué es?</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">ventajas y desventajas</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#execution">TIEMPO DE EJECUCIÓN</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -70,6 +70,11 @@
 
     <header>
         <div class="header-content">
+             <div class="col-lg-12">
+               <p>
+                  <h2 class="section-heading">Simulación del algoritmo</h2>
+               </p>
+            </div>
             <div class="header-content-inner">
                 <div class="col-lg-12">
                     <div>
@@ -101,9 +106,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">¿QUÉ ES?</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+                    <p class="section-heading" style="text-align:justify " >QuickSort  es un algoritmo basado en la técnica de  divide y vencerás  que permite en promedio ordenar n elementos en un tiempo proporcional a   O(n log (n)).  Este método obtiene  un elemento la lista llamado pivote,  una vez seleccionado  se  ha de buscar una forma de situar en  la  sublista izquierda todos los elementos menores que el pivote y en la sublista derecha todos los elementos mayores  que el pivote. </p>
                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
                 </div>
             </div>
@@ -114,141 +119,101 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">VENTAJAS  Y  DESVENTAJAS</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-6 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"  style="color:#FF4081"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        <i class="fa fa-4x fa-smile-o text-primary sr-icons"  style="color:#FF4081"></i>
+                        <h3>VENTAJAS</h3>
+                         <ul class="list-vd">
+                             <li><p class="text-muted" style="text-align:justify ">Muy rápido</p></li>
+                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-6 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons" style="color:#FF4081"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        <i class="fa fa-4x fa-frown-o text-primary sr-icons" style="color:#FF4081"></i>
+                        <h3>DESVENTAJAS</h3>
+                        <ul class="list-vd">
+                            <li><p class="text-muted" style="text-align:justify ">Implementación un poco más complicada.</p></li>
+                            <li><p class="text-muted" style="text-align:justify ">Recursividad (utiliza muchos recursos).</p></li>
+                            <li><p class="text-muted" style="text-align:justify ">Mucha diferencia entre el peor y el mejor caso.</p></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons" style="color:#FF4081"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
-                    </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="bg-primary" id="execution">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">TIEMPO DE EJECUCIÓN</h2>
+                    <hr class="light">
+                       <div class="row row-my">
+                        <div class="col-md-3"><p class="section-heading" style="text-align:justify ">Peor de los casos.</p></div>
+                        <div class="col-md-2"><p class="section-heading">O(n<sup>2</sup>)</p></div>                        
+                        <div class="col-md-7"><p class="section-heading" style="text-align:justify ">En el peor de los casos se presenta cuando el pibote siempre se inclina 
+                        hacia un lado, es decir, genera una array de solo un 1 elemento y una 
+                        segunda con el resto de elementos.</p></div>
+                      </div>
+                      <div class="row row-my">
+                        <div class="col-md-3"><p class="section-heading" style="text-align:justify ">Caso promedio.</p></div>
+                        <div class="col-md-2"><p class="section-heading">O(n log(n))</p></div>
+                        <div class="col-md-7"><p class="section-heading" style="text-align:justify ">En el caso promedio tiene  un costo de 
+                        O(n log(n)). Se produce cuando el pibote se inclina más hacia 
+                        un lado y los 2 subarrays tienen disitinto tamaño de elementos.</p></div> 
+                      </div>
+                      <br>
+                      <div class="row row-my">
+                        <div class="col-md-3"><p class="section-heading" style="text-align:left ">El mejor de los casos.</p></div>
+                        <div class="col-md-2"><p class="section-heading">O(n log(n))</div>                       
+                        <div class="col-md-7"><p class="section-heading" style="text-align:justify ">Se presenta cuando el pibote siempre queda
+                        al medio del arreglo. </p></div>
+                      </div>
+                       <div class="col-md-12">
+                          <i class="fa fa-5x fa-clock-o text-primary sr-icons" style="color:#FF4081" ></i>
+                       </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons" style="color:#FF4081"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="header-content-inner">
+                      <div class="col-lg-8 col-lg-offset-2 text-center">
+                         <h2 class="section-heading">CODIGO</h2>
+                         <hr class="light">
+                      </div>
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <div >
+                             <img src="img/laptop.png" class="img-responsive" alt=""align="middle">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center ">
+                        <div >
+                             <h2 class="section-heading" style="text-align:left "><font color="red"><a href="https://rosettacode.org/wiki/Sorting_algorithms/Quicksort#Java" target="_blank">JAVA</a></font></h2>
+                              <h2 class="section-heading" style="text-align:left "><font color="yellow"><a href="https://rosettacode.org/wiki/Sorting_algorithms/Quicksort#C" target="_blank">C</a></font></h2>
+                              <h2 class="section-heading" style="text-align:left "><font color="yellow"><a href="https://rosettacode.org/wiki/Sorting_algorithms/Quicksort#C.23" target="_blank">C#</a></font></h2>
+                              <h2 class="section-heading" style="text-align:left "><font color="yellow"><a href="https://rosettacode.org/wiki/Sorting_algorithms/Quicksort#JavaScript" target="_blank">JavaScript</a></font></h2>
+                              <h2 class="section-heading" style="text-align:left "><font color="yellow"><a href="https://rosettacode.org/wiki/Sorting_algorithms/Quicksort#PHP" target="_blank">PHP</a></font></h2>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <aside class="bg-dark">
         <div class="container text-center">
