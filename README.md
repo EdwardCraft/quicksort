@@ -14,7 +14,7 @@ Explore the integrative demo to visualize how Quick Sort operates on an array. T
 
 ## Getting Started
 
-View the webpage here: 
+View the webpage here: https://edwardcraft.github.io/quicksort/
 
 To run the demo locally or contribute to the project, follow these steps:
 
