@@ -21,4 +21,4 @@ To run the demo locally or contribute to the project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/quick-sort-visualization.git
+   https://github.com/EdwardCraft/QuickSort-Page.git
